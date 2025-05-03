@@ -66,7 +66,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   })
   
     AddButton(Tab1o, {
-     Name = "Teddy hub",
+     Name = "Teddy hub[Hop]",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
   end
@@ -87,7 +87,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   })
   
     AddButton(Tab1o, {
-     Name = "Astral V1 hub",
+     Name = "Astral hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
@@ -101,7 +101,31 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
   })
 
--- Tab 2
+    AddButton(Tab1o, {
+     Name = "solix hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/solixloader/refs/heads/main/solix%20v2%20new%20loader.lua"))()
+  end
+  })
+
+    AddButton(Tab1o, {
+     Name = "Lilnhan hub",
+    Callback = function()
+        getgenv().Teams = "Marines"  --Pirates
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NewBetaLua/Lilnhan/refs/heads/main/LilnhanHubV4"))() 
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "W-azure hub",
+    Callback = function()
+        getgenv().Team = "Marines"
+        getgenv().AutoLoad = false --Will Load Script On Server Hop
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+  
+----Tab2
     AddButton(Tab2o, {
      Name = "LongHuy Kaitun",
     Callback = function()
